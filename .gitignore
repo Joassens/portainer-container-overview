@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.orig.py
+*.bak*
+portainer_token
+update_pin
+.env
+*.log
