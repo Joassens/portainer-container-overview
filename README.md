@@ -46,7 +46,7 @@ The page has **no login**. Run it on a trusted network, or behind a reverse prox
 
 1. In Portainer create an access token (*My account > Access tokens*) and save it in a file only the service can read.
 2. Choose a PIN and save it in a file (`chmod 600`).
-3. Run it (Python 3.9 or newer; tested on 3.11 and 3.13):
+3. Run it (Python 3.11 or newer; tested on 3.11 and 3.13):
 
 ```bash
 python3 container_overview.py --portainer https://portainer.example:9443 --token-file ./portainer_token \
